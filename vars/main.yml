@@ -1,0 +1,17 @@
+---
+
+admin_user: admin
+
+admin_group: sudo
+
+ansible_pull_repo: "https://github.com/DiabeticDebuff/ansible-pull.git"
+
+managed_service: ssh
+
+packages:
+  - curl
+  - vim
+  - wget
+
+
+system_timezone: Etc/UTC
